@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 250px;
+  padding: 20px;
+  margin: 0;
+  transition: background-color 0.3s ease;
+    background-color: #333;
+  color: #fff;
+}
+
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input[type="number"],
+button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"],
+#modeToggle {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.output-container {
+  display: flex;
+  
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 16px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+    width: 64%;
+    vertical-align: middle;
+    
+}
+
+#copyBtn {
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+    padding: 8px;
+    vertical-align: middle;
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+#copyBtn:hover {
+  background-color: #0073a8;
+}
+
+.mode-toggle {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.mode-toggle label {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
